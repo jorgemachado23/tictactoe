@@ -1,21 +1,21 @@
 # TictactToe Challenge
 
-Project challenge for Dunnhumby 
+Project challenge
 
 
-2. Install dependencies with the command:
+1. Install dependencies with the command:
 
   ```bash
   dotnet restore 
   ```
 
-3. Build the project with the command: 
+2. Build the project with the command: 
 
   ```bash
   dotnet build
   ```
 
-1. Run the project you got two options:
+3. Run the project:
 
   ```bash
   dotnet run --project TicTacToe
@@ -29,7 +29,7 @@ dotnet test
 
 ## For Test coverage
 ```bash
-dotnet test --collect "Code Coverage" --results-directory .
+dotnet test --collect:"XPlat Code Coverage"
 ```
 
 ### To Preview the code coverage
